@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Pokemon';
+    src: url("./fonts/pokemon-font.ttf") format('truetype');
+}
+
+.pokemon-text{
+    font-family: 'Pokemon', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+html{
+    background-color: black;
+}
+
+.starters{
+    color: white;
+    font-family: 'Pokemon', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+}
+
+.div-bulbasaur{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vh;
+}
+
+.div-charmander{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 24.4vh;
+    
+}
+
+.div-squirtle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vh;
+}
+
+#bulba-name{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#char-name{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+#squi-name{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
