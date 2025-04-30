@@ -3,18 +3,13 @@
     src: url('../fonts/pokemon-font.ttf') format('truetype');
 }
 
-@media screen and(min-width: 319px) and (max-width: 480px){
+@media screen and(min-width: 750px) and (max-width: 1320px) and (min-height: 1334px) and (max-height:2868px){
     .container{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin-bottom: 20vh;
-    }
-
-    img{
-        width: 80px;
-        height: 110px;
     }
 }
 
