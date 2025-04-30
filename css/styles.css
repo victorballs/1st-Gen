@@ -3,6 +3,16 @@
     src: url('../fonts/pokemon-font.ttf') format('truetype');
 }
 
+@media screen and(min-width: 319px) and (max-width: 480px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+}
+
 .pokemon-text{
     font-family: 'Pokemon', sans-serif;
     color: white;
