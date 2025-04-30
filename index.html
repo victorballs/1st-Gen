@@ -8,26 +8,38 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+<!-- sound effects -->
+<audio id="bulbasaur-sound" src="bulbasaur.mp3"></audio>
+<audio id="charmander-sound" src="charmander.mp3"></audio>
+<audio id="squirtle-sound" src="squirtle.mp3"></audio>
+
     <div class="container">
         <div class="pokemon-text">
         <h1>First Gen Starters</h1>
         </div>
         <div class="starters">
             <div class="div-bulbasaur">
-                <img src="./bulbasaur.gif">
-                <span id="bulba-name">BULBASAUR</span>
+                <button id="bulba-button" onclick="playSong('bulbasaur-sound')" type="button"><img src="./bulbasaur.gif"></button>
+                <p id="bulba-name">BULBASAUR</p>
             </div>
             
             <div class="div-charmander">
-                <img src="./charmander.gif">
-                <span id="char-name">CHARMANDER</span>
+                <button id="charmander-button"onclick="playSong('charmander-sound')" type="button"><img src="./charmander.gif"></button>
+                <p id="char-name">CHARMANDER</p>
             </div>
 
             <div class="div-squirtle">
-                <img src="./squirtle.gif">
-                <span id="squi-name">SQUIRTLE</span>
+                <button id="squirtle-button" onclick="playSong('squirtle-sound')" type="button"><img src="./squirtle.gif"></button>
+                <p id="squi-name">SQUIRTLE</p>
             </div>
         </div>
     </div>
+
+<script>
+    function playSong(songId) {
+        const song = document.getElementById(songId);
+        song.play();
+        }
+</script>
 </body>
 </html>

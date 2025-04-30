@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Pokemon';
-    src: url("../fonts/pokemon-font.ttf") format('truetype');
+    src: url('../fonts/pokemon-font.ttf') format('truetype');
 }
 
 .pokemon-text{
@@ -31,6 +31,27 @@ html{
     width: 30vh;
 }
 
+#bulba-button{
+    background-color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#charmander-button{
+    background-color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#squirtle-button{
+    background-color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
 .div-charmander{
     display: flex;
     justify-content: center;
@@ -49,17 +70,19 @@ html{
 #bulba-name{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
 }
 
 #char-name{
     display: flex;
     justify-content: center;
-    padding-top: 32px;
 }
 
 #squi-name{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+}
+
+img{
+    width: 320px;
+    height: 350px;
 }
